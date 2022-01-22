@@ -1,12 +1,30 @@
 {
   "name": "node_express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning basics of node npm and express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "app": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarif-Karim/node_express.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "learn"
+  ],
   "author": "Zarif Karim",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zarif-Karim/node_express/issues"
+  },
+  "homepage": "https://github.com/Zarif-Karim/node_express#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
