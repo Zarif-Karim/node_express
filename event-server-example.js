@@ -3,7 +3,9 @@ const http = require('http');
 const domain = '127.0.0.1';
 const port = 5050;
 
-const server = http.createServer((request,response)=>{
+const server = http.createServer();
+
+server.on('request', (request,response)=>{
     console.log('url: ',request.url);
     // response.write('<h1>Welcome to our Home page<h1>');
     // response.end();
@@ -19,7 +21,10 @@ const server = http.createServer((request,response)=>{
         <a href="/">Back Home</a>
         `);
     }
-    else {    //default
+    else if(request.url === '/bigFile') {
+
+    }
+    else  {    //default
         response.end(`
         <h1> Error: 404 <h1>
         <p> Page not found </p>

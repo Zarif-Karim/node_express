@@ -4,8 +4,9 @@
   "description": "Learning basics of node npm and express",
   "main": "app.js",
   "scripts": {
-    "app": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "dev-server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,6 @@
     "url": "https://github.com/Zarif-Karim/node_express/issues"
   },
   "homepage": "https://github.com/Zarif-Karim/node_express#readme",
-  "dependencies": {
-  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
