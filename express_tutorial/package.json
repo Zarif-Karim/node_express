@@ -1,0 +1,30 @@
+{
+  "name": "express_tutorial",
+  "version": "1.0.0",
+  "description": "Learning about express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarif-Karim/node_express.git"
+  },
+  "keywords": [
+    "express",
+    "js"
+  ],
+  "author": "Zarif Karim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zarif-Karim/node_express/issues"
+  },
+  "homepage": "https://github.com/Zarif-Karim/node_express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
