@@ -1,5 +1,5 @@
 {
-  "name": "node_express",
+  "name": "node_tutorial",
   "version": "1.0.0",
   "description": "Learning basics of node npm and express",
   "main": "app.js",
