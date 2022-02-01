@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Zarif-Karim/node_express#readme",
   "devDependencies": {
+    "axios": "^0.25.0",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
