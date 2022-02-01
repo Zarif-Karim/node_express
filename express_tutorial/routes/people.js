@@ -8,7 +8,6 @@ router.get('/',(req,res)=>{
 
 
 router.post('/',(req,res)=>{
-    console.log(req.body);
     const {name, role} = req.body;
     if(name && role){
         const newPerson = { 
